@@ -1,0 +1,24 @@
+class Vehicle:
+    def _init_(self, brand):
+        self.brand = brand
+
+    def drive(self):
+        print(f"{self.brand} is being driven.")
+
+
+class Car(Vehicle):
+    def _init_(self, brand, model):
+        super()._init_(brand)
+        self.model = model
+
+    def honk(self):
+        print(f"{self.brand} {self.model} is honking.")
+
+
+class Motorcycle(Vehicle):
+    def _init_(self, brand, speed):
+        super()._init_(brand)
+        self.speed = speed
+
+    def wheelie(self):
+        print(f"{self.brand} is performing a wheelie.")
