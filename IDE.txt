@@ -1,0 +1,10 @@
+Ctrl + F12: Show the structure of the current file.
+Ctrl + B: Go to the declaration of a symbol.
+Ctrl + F3: Search for occurrences of a symbol.
+Alt + F7: Find usages of a symbol.
+Ctrl + Shift + F: Find text in the entire project.
+Ctrl + Shift + R: Replace text in the entire project.
+Ctrl + Shift + Enter: Complete the current statement.
+Alt + Enter: Show intentions and quick fixes for the current code.
+Ctrl + Alt + L: Reformat code.
+Ctrl + Alt + O: Optimize imports.
